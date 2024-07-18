@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('https://windows10wall.com/wp-content/uploads/2013/07/Nice-blue-flowers-with-sky-in-the-background-wallpaper_198.jpg');
+    background-size: cover; 
+    background-position: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    
+
+}
+
+
+h1 {
+    font-size: 50px;
+    color: blue;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #fff;
+}
+
+input {
+    padding: 20px;
+    border: 1px solid #e4dcdc;
+    border-radius: 4px;
+    width: 50vh;
+}
+
+button {
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: rgb(24, 173, 241);
+}
+
+.btn-consultar {
+    color: blue;
+    font-size: 20px;
+    
+}
+
+#resultado {
+
+    color: blue;
+    font-size: 25px;
+    font-weight:bold;
+    text-align: center; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+    
+}
